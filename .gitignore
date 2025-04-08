@@ -1,9 +1,28 @@
-# bps-mail compiled binaries and sensitive data
+# Compiled binaries and build artifacts
 bps-mail/bin/
+bps-mail/*.o
+bps-mail/*.out
+bps-mail/*.exe
+bps-mail/emails/
+
+# Sensitive data
 bps-mail/.env
 
-# General editor/temporary files
+# Editor/IDE files
 *.swp
 *.swo
-*~
 *.tmp
+*~
+*.bak
+
+# macOS stuff (if applicable)
+.DS_Store
+
+# Vim undo/backup/swap
+*.un~
+*.sw?
+
+# Logs (if you add logging later)
+bps-mail/logs/
+*.log
+
