@@ -1,0 +1,9 @@
+# bps-mail compiled binaries and sensitive data
+bps-mail/bin/
+bps-mail/.env
+
+# General editor/temporary files
+*.swp
+*.swo
+*~
+*.tmp
